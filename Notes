@@ -1,0 +1,17 @@
+TDO: Change to Object Oriented 
+
+
+TO RUN:
+
+USAGE:
+config_builder.py --help
+config_builder.py --list_usecase
+config_builder.py --list_nid
+config_builder,py --usecase "usecase" --nid "RAD"
+
+
+
+One Template for one use case
+One Usecase + Template for all NIDS (using Jinja if condition validate user input "vendor"
+                                     and discard unwanted variables)
+Different functions for variable collectors for different vendors
